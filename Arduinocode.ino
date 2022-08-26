@@ -3,8 +3,6 @@
 #define LEDRV 11;
 #define LEDB 10;
 #define LEDRH 9;
-int speed = 250;
-String bogdan = "";
 
 void setup() {
   pinMode(LEDY, OUTPUT);
