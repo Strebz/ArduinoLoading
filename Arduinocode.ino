@@ -13,20 +13,20 @@ void setup() {
 }
 
 void loop() {
-  digitalWrite(LEDB, HIGH);
-  delay(200);
-  digitalWrite(LEDB, LOW);
-  digitalWrite(LEDG, HIGH);
-  delay(200);
-  digitalWrite(LEDG, LOW);
-  digitalWrite(LEDRH, HIGH);
-  delay(200);
-  digitalWrite(LEDRH, LOW);
-  digitalWrite(LEDY, HIGH);
-  delay(200);
-  digitalWrite(LEDY, LOW); 
-  digitalWrite(LEDRV, HIGH);
-  delay(200);
-  digitalWrite(LEDRV, LOW); 
+  digitalWrite(LEDB, HIGH); // Turning on one lamp
+  delay(200); // One delay
+  digitalWrite(LEDB, LOW); // Turning off one lamp
+  digitalWrite(LEDG, HIGH); // Turning on another lamp
+  delay(200); // Another delay
+  digitalWrite(LEDG, LOW); // Turning off another lamp
+  digitalWrite(LEDRH, HIGH); // Turning on another another lamp
+  delay(200); // Another another delay
+  digitalWrite(LEDRH, LOW); // Turning off another another lamp
+  digitalWrite(LEDY, HIGH); // Turning on another another another lamp
+  delay(200); // Another another another delay
+  digitalWrite(LEDY, LOW); // Turning off another another another lamp
+  digitalWrite(LEDRV, HIGH); // Turning on another another another another lamp
+  delay(200); // Another another another another delay
+  digitalWrite(LEDRV, LOW); // Turning off another another another another lamp
   
 }
