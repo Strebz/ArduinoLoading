@@ -5,11 +5,11 @@
 #define LEDRH 9 // Another another another another lamp
 
 void setup() {
-  pinMode(LEDY, OUTPUT);
-  pinMode(LEDG, OUTPUT);
-  pinMode(LEDRV, OUTPUT);
-  pinMode(LEDB, OUTPUT);
-  pinMode(LEDRH, OUTPUT);
+  pinMode(LEDY, OUTPUT); // One lamp
+  pinMode(LEDG, OUTPUT); // Another lamp
+  pinMode(LEDRV, OUTPUT); // Another another lamp
+  pinMode(LEDB, OUTPUT); // Another another another lamp
+  pinMode(LEDRH, OUTPUT); // Another another another another lamp
 }
 
 void loop() {
