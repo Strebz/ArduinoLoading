@@ -1,8 +1,8 @@
-#define LEDY 13
-#define LEDG 12
-#define LEDRV 11
-#define LEDB 10
-#define LEDRH 9
+#define LEDY 13 // One lamp
+#define LEDG 12 // Another lamp
+#define LEDRV 11 // Another another lamp
+#define LEDB 10 // Another another another lamp
+#define LEDRH 9 // Another another another another lamp
 
 void setup() {
   pinMode(LEDY, OUTPUT);
